@@ -1370,7 +1370,42 @@ DELETE FROM surveycategory WHERE id=9;
 </code></pre>
 <h3 id="restfull-сервіс-для-управління-даними"><a class="header" href="#restfull-сервіс-для-управління-даними">RESTfull сервіс для управління даними</a></h3>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Тестування-працездатності-системи"><a class="header" href="#Тестування-працездатності-системи">Тестування працездатності системи</a></h1>
-<p><em>В цьому розділі необхідно вказати засоби тестування, навести вихідні коди тестів та результати тестування.</em></p>
+<p>Для тестування API використовувався <strong>Postman</strong>. Нижче наведено приклади запитів і відповідей для основних операцій.</p>
+<hr />
+<h2 id="create-user"><a class="header" href="#create-user"><strong>Create User</strong></a></h2>
+<h3 id="Успішне-створення-користувача"><a class="header" href="#Успішне-створення-користувача">Успішне створення користувача</a></h3>
+<p><img src="https://github.com/user-attachments/assets/77206bd5-aa1d-46e6-a0d8-a9834671434d" alt="Create User" /></p>
+<h3 id="Помилка-при-створенні-користувача"><a class="header" href="#Помилка-при-створенні-користувача">Помилка при створенні користувача</a></h3>
+<p><img src="https://github.com/user-attachments/assets/cf7f5829-fe26-4782-bfe6-a59819912e11" alt="Wrong Create User" /></p>
+<hr />
+<h2 id="read-users"><a class="header" href="#read-users"><strong>Read Users</strong></a></h2>
+<h3 id="Отримання-всіх-користувачів"><a class="header" href="#Отримання-всіх-користувачів">Отримання всіх користувачів</a></h3>
+<p><img src="https://github.com/user-attachments/assets/b08973e5-741b-439d-8709-eb1be80e1f85" alt="Get All Users" /></p>
+<h3 id="Отримання-користувача-за-id"><a class="header" href="#Отримання-користувача-за-id">Отримання користувача за ID</a></h3>
+<p><img src="https://github.com/user-attachments/assets/6572101d-7f72-4c8e-ba34-2297caee86ea" alt="Get User by ID" /></p>
+<h3 id="Помилка-при-отриманні-користувача-за-неправильним-id"><a class="header" href="#Помилка-при-отриманні-користувача-за-неправильним-id">Помилка при отриманні користувача за неправильним ID</a></h3>
+<p><img src="https://github.com/user-attachments/assets/c4333e90-7494-4f15-929e-47089d23e4c4" alt="Wrong Get User by ID" /></p>
+<hr />
+<h2 id="update-user"><a class="header" href="#update-user"><strong>Update User</strong></a></h2>
+<h3 id="До-оновлення"><a class="header" href="#До-оновлення">До оновлення</a></h3>
+<p><img src="https://github.com/user-attachments/assets/044e42f5-81bb-4c59-b619-f56ca9c1362a" alt="Before Update User" /></p>
+<h3 id="Успішне-оновлення"><a class="header" href="#Успішне-оновлення">Успішне оновлення</a></h3>
+<p><img src="https://github.com/user-attachments/assets/6894f308-e1a4-4ffa-b234-8eaf4248e80d" alt="Update User" /></p>
+<h3 id="Після-оновлення"><a class="header" href="#Після-оновлення">Після оновлення</a></h3>
+<p><img src="https://github.com/user-attachments/assets/64c9ef83-d470-42fb-b8c4-2a6c20a55036" alt="After Update User" /></p>
+<h3 id="Помилка-при-оновленні"><a class="header" href="#Помилка-при-оновленні">Помилка при оновленні</a></h3>
+<p><img src="https://github.com/user-attachments/assets/fc7e6f50-8676-44ac-a0a0-13e7932d5b2d" alt="Wrong Update User" /></p>
+<hr />
+<h2 id="delete-user"><a class="header" href="#delete-user"><strong>Delete User</strong></a></h2>
+<h3 id="До-видалення"><a class="header" href="#До-видалення">До видалення</a></h3>
+<p><img src="https://github.com/user-attachments/assets/a8c630a4-632e-4a49-ae21-3d34d7dbde55" alt="Before Delete User" /></p>
+<h3 id="Успішне-видалення"><a class="header" href="#Успішне-видалення">Успішне видалення</a></h3>
+<p><img src="https://github.com/user-attachments/assets/55b3614e-b498-465a-b4b9-394fdf33b85d" alt="Delete User" /></p>
+<h3 id="Після-видалення"><a class="header" href="#Після-видалення">Після видалення</a></h3>
+<p><img src="https://github.com/user-attachments/assets/65594751-f326-4571-979a-5279fa7cea2f" alt="After Delete User" /></p>
+<h3 id="Помилка-при-видаленні"><a class="header" href="#Помилка-при-видаленні">Помилка при видаленні</a></h3>
+<p><img src="https://github.com/user-attachments/assets/88eecdc6-408b-484a-8227-7af4a8333a06" alt="Wrong Delete User" /></p>
+<hr />
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Висновки-1"><a class="header" href="#Висновки-1">Висновки</a></h1>
 <p>Під час виконання лабораторних робіт було розроблено систему для організації та управління експертними опитуваннями під назвою MESS (Modern Easy Social Survey). Проєкт реалізовано поетапно, включаючи аналіз предметної області, конкурентного середовища (такі як Google Forms, Survio та інші), розробку діаграм прецедентів і активностей, що заклали основу для проєктування бази даних.</p>
 <p>Результатом стало створення моделі бізнес-об’єктів, ER-моделі та реляційної схеми, після чого реалізовано базу даних із узгодженими сутностями та їх взаємозв’язками. База наповнена даними для демонстрації функціональності запитів і збереження інформації. Заключним етапом стало розроблення RESTful API з використанням Node.js та Express, що забезпечує динамічне управління базою даних.</p>
